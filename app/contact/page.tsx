@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import Navbar from '@/components/blocks/navbar';
+import FooterColumns from '@/components/blocks/footer-columns';
 import ContactForm from '@/components/blocks/contact-form';
 import ContactMap from '@/components/blocks/contact-map';
-import FooterColumns from '@/components/blocks/footer-columns';
 
 export const metadata: Metadata = {
   title: 'Contact | Harris Landscaping & Gardens',
