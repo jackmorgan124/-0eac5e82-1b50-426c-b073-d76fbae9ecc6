@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import Navbar from '@/components/blocks/navbar';
-import FooterColumns from '@/components/blocks/footer-columns';
 import ServicesAlternating from '@/components/blocks/services-alternating';
 import CtaBanner from '@/components/blocks/cta-banner';
+import FooterColumns from '@/components/blocks/footer-columns';
 
 export const metadata: Metadata = {
   title: 'Services | Harris Landscaping & Gardens',
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     'Full-service landscaping across South-West Sydney — turf installation, paving, retaining walls, decking, garden design, and maintenance.',
 };
 
-export default function Page() {
+export default function ServicesPage() {
   return (
     <>
       <Navbar
