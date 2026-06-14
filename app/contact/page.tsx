@@ -1,16 +1,16 @@
 import type { Metadata } from 'next';
 import Navbar from '@/components/blocks/navbar';
-import FooterColumns from '@/components/blocks/footer-columns';
 import ContactForm from '@/components/blocks/contact-form';
 import ContactMap from '@/components/blocks/contact-map';
+import FooterColumns from '@/components/blocks/footer-columns';
 
 export const metadata: Metadata = {
   title: 'Contact | Harris Landscaping & Gardens',
   description:
-    "Get in touch with Harris Landscaping & Gardens for an obligation-free quote on your South-West Sydney landscaping project.",
+    'Get in touch with Harris Landscaping & Gardens for an obligation-free quote on your South-West Sydney landscaping project.',
 };
 
-export default function Page() {
+export default function ContactPage() {
   return (
     <>
       <Navbar
