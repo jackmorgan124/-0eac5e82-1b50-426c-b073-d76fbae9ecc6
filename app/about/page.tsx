@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import Navbar from '@/components/blocks/navbar';
-import FooterColumns from '@/components/blocks/footer-columns';
 import AboutSplit from '@/components/blocks/about-split';
 import AboutStats from '@/components/blocks/about-stats';
 import TrustBadges from '@/components/blocks/trust-badges';
+import FooterColumns from '@/components/blocks/footer-columns';
 
 export const metadata: Metadata = {
   title: 'About | Harris Landscaping & Gardens',
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "South-West Sydney's trusted landscaping team with 15+ years of experience, 500+ projects completed, and a fully insured local crew.",
 };
 
-export default function Page() {
+export default function AboutPage() {
   return (
     <>
       <Navbar
