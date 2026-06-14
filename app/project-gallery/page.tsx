@@ -1,16 +1,16 @@
 import type { Metadata } from 'next';
 import Navbar from '@/components/blocks/navbar';
-import FooterColumns from '@/components/blocks/footer-columns';
 import GalleryBeforeAfter from '@/components/blocks/gallery-before-after';
 import CtaBanner from '@/components/blocks/cta-banner';
+import FooterColumns from '@/components/blocks/footer-columns';
 
 export const metadata: Metadata = {
   title: 'Project Gallery | Harris Landscaping & Gardens',
   description:
-    'Browse our portfolio of completed landscaping projects across South-West Sydney — before-and-after transformations for turf, paving, retaining walls, and decking.',
+    'Browse before-and-after landscaping transformations across South-West Sydney — turf, paving, retaining walls, decking, and full backyard projects.',
 };
 
-export default function Page() {
+export default function ProjectGalleryPage() {
   return (
     <>
       <Navbar
