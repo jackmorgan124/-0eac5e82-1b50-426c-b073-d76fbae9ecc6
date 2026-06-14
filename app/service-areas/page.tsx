@@ -1,17 +1,17 @@
 import type { Metadata } from 'next';
 import Navbar from '@/components/blocks/navbar';
-import FooterColumns from '@/components/blocks/footer-columns';
 import ServiceAreaGrid from '@/components/blocks/service-area-grid';
 import ImageTextSplit from '@/components/blocks/image-text-split';
 import CtaBanner from '@/components/blocks/cta-banner';
+import FooterColumns from '@/components/blocks/footer-columns';
 
 export const metadata: Metadata = {
   title: 'Service Areas | Harris Landscaping & Gardens',
   description:
-    'Harris Landscaping & Gardens proudly serves Campbelltown, Camden, Narellan, Picton, the Macarthur Region, and the wider South-West Sydney area.',
+    'Harris Landscaping & Gardens proudly serves Campbelltown, Camden, Narellan, Picton, the Macarthur region, and the wider South-West Sydney area.',
 };
 
-export default function Page() {
+export default function ServiceAreasPage() {
   return (
     <>
       <Navbar
