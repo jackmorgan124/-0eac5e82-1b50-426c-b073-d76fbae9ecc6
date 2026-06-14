@@ -1,18 +1,18 @@
 import type { Metadata } from 'next';
 import Navbar from '@/components/blocks/navbar';
-import FooterColumns from '@/components/blocks/footer-columns';
 import HeroSplit from '@/components/blocks/hero-split';
 import ServicesGrid from '@/components/blocks/services-grid';
 import GalleryBeforeAfter from '@/components/blocks/gallery-before-after';
 import ReviewsCarousel from '@/components/blocks/reviews-carousel';
+import FooterColumns from '@/components/blocks/footer-columns';
 
 export const metadata: Metadata = {
   title: 'Harris Landscaping & Gardens',
   description:
-    'Premium landscaping for South-West Sydney homes — turf, paving, retaining walls, decking, and full garden transformations.',
+    'Premium landscaping for South-West Sydney homes — turf, paving, retaining walls, decking, and full garden transformations built to last.',
 };
 
-export default function Page() {
+export default function HomePage() {
   return (
     <>
       <Navbar
